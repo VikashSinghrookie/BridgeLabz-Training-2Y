@@ -1,5 +1,5 @@
 import java.util.*;
-public class lab {
+public class age_calculate {
     public static void main(String[] args) {
         int a=2024;
         int b=2000;
