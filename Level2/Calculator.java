@@ -4,8 +4,8 @@ public class Calculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double n1, n2;
-        number1 = input.nextDouble();
-        number2 = input.nextDouble();
+        n1 = input.nextDouble();
+        n2 = input.nextDouble();
         double add= n1+n2;
         double sub= n1-n2;
         double mul= n1*n2;

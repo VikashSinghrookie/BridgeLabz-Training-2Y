@@ -6,9 +6,9 @@ public class Total_price {
         double up;
         int qty;
         System.out.print("unit price: ");
-        unitPrice = input.nextDouble();
+        up = input.nextDouble();
         System.out.print("quantity: ");
-        quantity = input.nextInt();
+        qty = input.nextInt();
         double total = up*qty;
         System.out.println("The total purchase price is INR " + total + " if the quantity " + qty + " and unit price is INR " + up);
     }

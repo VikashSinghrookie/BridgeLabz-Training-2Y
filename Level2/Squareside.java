@@ -5,7 +5,7 @@ public class Squareside {
         Scanner input = new Scanner(System.in);
         int p;
         System.out.print("perimeter of square: ");
-        perimeter = input.nextInt();
+        p = input.nextInt();
         int side = p/4;
         System.out.println("The length of the side is " + side + " whose perimeter is " + p);
     }
