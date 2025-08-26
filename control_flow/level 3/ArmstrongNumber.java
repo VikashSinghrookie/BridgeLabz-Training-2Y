@@ -4,20 +4,20 @@ public class ArmstrongNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
-        int number = sc.nextInt();
-        int originalNumber = number;
-        int sum = 0;
+        int n = sc.nextInt();
+        int org_n=n;
+        int sum=0;
 
-        while (originalNumber != 0) {
-            int digit = originalNumber % 10;
-            sum += digit * digit * digit;
-            originalNumber /= 10;
+        while (org_n != 0) {
+            int digit = org_n%10;
+            sum+=digit*digit*digit;
+            org_n/=10;
         }
 
-        if (sum == number) {
-            System.out.println(number + " is an Armstrong Number.");
+        if (sum==n) {
+            System.out.println(n +"is an Armstrong Number.");
         } else {
-            System.out.println(number + " is NOT an Armstrong Number.");
+            System.out.println(n +" is NOT an Armstrong Number.");
         }
         sc.close();
     }
