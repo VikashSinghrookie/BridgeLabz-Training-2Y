@@ -1,21 +1,22 @@
-package control_flow.level1;
-import java.util.*;
-public class factorial {
+import java.util.Scanner;
+
+public class Factorials {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a positive integer: ");
-        int n = sc.nextInt();
+        int num = sc.nextInt();
 
-        if (n < 0) {
+        if (num < 0) {
             System.out.println("Please enter a positive integer.");
         } 
         else {
             long factorial = 1;
 
-            for (int i = 1; i <= n; i++) {
+            for (int i = 1; i <= num; i++) {
                 factorial *= i;
             }
-            System.out.println("Factorial of " + n + " is: " + factorial);
+
+            System.out.println("Factorial of " + num + " is: " + factorial);
         }
         sc.close();
     }
