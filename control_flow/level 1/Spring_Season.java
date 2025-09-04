@@ -12,7 +12,7 @@ public class Spring_Season {
             (month == 6 && day >= 1 && day <= 20)) {
             System.out.println("It's a Spring Season");
         } else {
-            System.out.println("Not a Spring Season");
+            System.out.println("Not  Spring Season");
         }
     }
 }
